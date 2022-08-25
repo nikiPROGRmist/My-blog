@@ -1,0 +1,125 @@
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    height: 48px;
+    width: 100%;
+    width: calc(100% - 300px);
+    background-color: #0D0D0D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__right{
+    display: flex;
+
+}
+
+
+.nav__list{
+    display: flex;
+}
+
+.nav__list > li{
+    display: block;
+    margin-right: 20px;
+    padding: 17px 10px;
+    position: relative;
+    transition: all .2s ease 0s;
+    font-size: 11px;
+
+
+
+}
+
+.nav__list>li:hover{
+    background-color:#3137C9 ;
+}
+
+.nav__list>li:hover .nav__sub-list{
+    opacity: 1;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.nav__sub-list {
+    position: absolute;
+    top:45px;
+    left: 0px;
+    min-width: 150px;
+    background-color:#3137C9 ;
+    padding: 10px;
+    opacity: 0;
+    transition: all .2s ease 0s;
+
+}
+
+.nav__sub-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+
+
+
+.nav__sub-list > li{
+    padding: 5px 0;
+    font-size: 12px;
+
+
+}
+
+
+.serch{
+    max-width: 210px;
+    width: 100%;
+    background-color: #202020;
+    margin-left: 10px;
+    height: 63px;
+
+}
+
+.serch__form{
+    padding: 30px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+
+
+}
+
+
+.login__header{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.login__header h1{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.exit__btn{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    margin-right: 20px;
+}
