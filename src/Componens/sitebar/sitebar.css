@@ -7,6 +7,13 @@
   height: 100vh;
   background-color: #202020;
   box-shadow: 5px 0 rgba(#050505, 1%);
+
+}
+
+@media (max-width:900px) {
+  .sitebar{
+    display: none;
+  }
 }
 
 .social__img {

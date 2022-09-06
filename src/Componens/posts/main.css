@@ -6,6 +6,12 @@
 
 }
 
+@media (max-width:900px) {
+    .main{
+        padding: 0;
+    }
+}
+
 .postBtn {
     padding: 15px 20px;
     background-color: #3137C9;

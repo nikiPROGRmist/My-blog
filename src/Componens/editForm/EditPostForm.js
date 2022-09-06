@@ -32,6 +32,16 @@ export class EditPostForm extends Component {
     this.props.hideEditPostForm();
   };
 
+  componentDidUpdate() {
+    window.addEventListener("keydown", (event) => {
+      if (event.code === "Escape") this.props.hideEditPostForm();
+    });
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("keyup", this.props.hideEditPostForm());
+  }
+
   render() {
     return (
       <>

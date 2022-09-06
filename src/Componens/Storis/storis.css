@@ -2,10 +2,36 @@
     display: flex;
 
 
+
+}
+@media (max-width:900px) {
+
+    .storis{
+        margin-top:  100px;
+
+    }
+}
+
+@media (max-width:500px) {
+    .storis{
+        margin-top:  200px;
+        display: block;
+
+    }
+
+}
+
+@media (max-width:750px) {
+    .storis{
+        margin-top:  200px;
+
+    }
 }
 
 .storis__link{
-margin:8px;
+ width: 140px;
+ padding: 0 5px;
+margin:15px auto;
 position: relative;
 cursor: pointer;
 overflow: hidden;

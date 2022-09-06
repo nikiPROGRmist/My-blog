@@ -54,6 +54,10 @@
 
 }
 
+
+
+
+
 .input__form input::placeholder {
     color: #828282;
     padding: 0 110px;
@@ -107,4 +111,36 @@
     right: 10px;
     z-index: 4;
 
+}
+
+@media (max-width:500px) {
+    .form__icone {
+
+        width: 100%;
+        max-width: 320px;
+
+
+    }
+    .input__form input {
+        width: 300px;
+
+    }
+    .textarea__form textarea{
+        width: 300px;
+        padding: 20px 10px;
+
+    }
+
+
+    .textarea__form textarea::placeholder {
+        color: #828282;
+        padding: 40px 80px;
+        font-size: 15px;
+    }
+
+    .input__form input::placeholder {
+        color: #828282;
+        padding: 0 80px;
+        font-size: 14px;
+    }
 }

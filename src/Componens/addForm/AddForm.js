@@ -34,8 +34,8 @@ export class AddForm extends Component {
   // }
 
   componentDidUpdate() {
-    window.addEventListener("keyup", (event) => {
-      if (event.key === "Enter") this.props.hidePosts();
+    window.addEventListener("keydown", (event) => {
+      if (event.code === "Escape") this.props.hidePosts();
     });
   }
 
